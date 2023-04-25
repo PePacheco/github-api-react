@@ -1,0 +1,38 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+th,
+td {
+    padding: 0.5rem;
+    text-align: left;
+}
+  
+th {
+    background-color: #333;
+    color: #fff;
+}
+  
+.user-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+  
+.details-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #444; 
+}
+  
